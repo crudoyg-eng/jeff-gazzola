@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeff Gazzola - Flyboard en Cannes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body>
+    <!-- HERO -->
+    <section class="pt-32 pb-20 px-4 bg-gradient-to-br from-blue-900 to-slate-900 text-white min-h-screen flex items-center">
+        <div class="max-w-6xl mx-auto w-full">
+            <h1 class="text-6xl font-bold mb-6">Vuela sobre el Mediterráneo</h1>
+            <p class="text-2xl text-gray-300 mb-8">Clases de flyboard en Cannes</p>
+            <p class="text-xl mb-8">Con Jeff Gazzola - Instructor Elite</p>
+            <button class="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-700 mb-8">
+                Reservar ahora
+            </button>
+            <div class="grid md:grid-cols-3 gap-8 mt-12">
+                <div class="bg-white/10 p-6 rounded-lg">
+                    <p class="text-3xl font-bold text-blue-300">1000+</p>
+                    <p class="text-gray-300">Clientes satisfechos</p>
+                </div>
+                <div class="bg-white/10 p-6 rounded-lg">
+                    <p class="text-3xl font-bold text-orange-300">€140-240</p>
+                    <p class="text-gray-300">Nuestros precios</p>
+                </div>
+                <div class="bg-white/10 p-6 rounded-lg">
+                    <p class="text-3xl font-bold text-green-300">✅ Seguro</p>
+                    <p class="text-gray-300">100% profesional</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="py-20 px-4 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">Nuestros Servicios</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-blue-600">
+                    <h3 class="text-2xl font-bold mb-2">Iniciación</h3>
+                    <p class="text-gray-600 mb-4">Perfecto para comenzar</p>
+                    <p class="text-4xl font-bold text-blue-600 mb-4">€140</p>
+                    <p class="text-gray-600 mb-4">⏱️ 30 minutos</p>
+                    <ul class="space-y-2">
+                        <li>✓ Instrucción personalizada</li>
+                        <li>✓ Equipo completo</li>
+                        <li>✓ Fotos incluidas</li>
+                        <li>✓ Seguro</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-orange-500 relative">
+                    <div class="absolute top-4 right-4 bg-orange-500 text-white px-3 py-1 rounded-full text-sm font-bold">POPULAR</div>
+                    <h3 class="text-2xl font-bold mb-2">Avanzado</h3>
+                    <p class="text-gray-600 mb-4">Aprende acrobacias extremas</p>
+                    <p class="text-4xl font-bold text-orange-600 mb-4">€240</p>
+                    <p class="text-gray-600 mb-4">⏱️ 1 hora completa</p>
+                    <ul class="space-y-2">
+                        <li>✓ Backflips y dolphins</li>
+                        <li>✓ Acrobacias personalizadas</li>
+                        <li>✓ Video de la sesión</li>
+                        <li>✓ Certificado</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="py-20 px-4 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">Contacto</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <p class="text-lg mb-6"><strong>📱 Teléfono/WhatsApp:</strong><br/><a href="tel:+33648392644" class="text-blue-600 hover:underline text-xl">+33 6 48 39 26 44</a></p>
+                    <p class="text-lg mb-6"><strong>📧 Email:</strong><br/><a href="mailto:jeffreygazzola@gmail.com" class="text-blue-600 hover:underline">jeffreygazzola@gmail.com</a></p>
+                    <p class="text-lg"><strong>📍 Ubicación:</strong><br/>Cannes, Francia</p>
+                </div>
+                <div class="bg-gradient-to-br from-blue-600 to-orange-500 text-white p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4">¿Listo para volar?</h3>
+                    <p class="mb-6">Edad mínima: 18 años. Sin experiencia necesaria. ¡Lo aprendes todo!</p>
+                    <p class="text-sm mb-4">Más de 1000 clientes satisfechos en todo el mundo.</p>
+                    <button class="bg-white text-blue-600 font-bold px-6 py-3 rounded-lg hover:bg-gray-100 w-full">
+                        Reservar ahora
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-gray-400 py-8 px-4 text-center">
+        <p>© 2024 Jeff Gazzola Flyboard. Todos los derechos reservados.</p>
+        <p class="text-sm mt-2">Página profesional para clases de flyboard en Cannes</p>
+    </footer>
+
+    <script>
+        // Smooth scroll para botones
+        document.querySelectorAll('button').forEach(btn => {
+            btn.addEventListener('click', () => {
+                alert('¡Gracias por tu interés! Contáctanos por WhatsApp: +33 6 48 39 26 44');
+            });
+        });
+    </script>
+</body>
+</html>
